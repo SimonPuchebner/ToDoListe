@@ -1,24 +1,24 @@
 function add(){
     let div = document.createElement("div");
-    div.style.backgroundColor= "lightgrey";
-
-    let input = document.getElementById("text").textContent;
-    input.setAttribute("class","textInBox");
-    
-    let checkb = document.createElement("input");
-    checkb.setAttribute("type","checkbox");
-
-
+    div.style.backgroundColor= "red";
+    div.setAttribute("height","50px");
+    div.setAttribute("width","50px");
+   
     let button = document.createElement("button");
     button.setAttribute("class","button");
     button.addEventListener('click', function(){
-        input.setAttribute("class","delText");
-        div.style.backgroundColor= "darkgrey";
+        div.style.backgroundColor= "green";
     })
     button.textContent = "Fertig";
-
-    div.appendChild(checkb);
-    div.appendChild(input);
+ 
+    let text = document.createElement("div");
+    text.innerHTML = document.getElementById("text").value;
+    text.style.backgroundColor = "white";
+ 
+    div.appendChild(text);
     div.appendChild(button);    
-    
+    console.log(div)
+   
+    let append = document.querySelector('#items');
+    append.appendChild(div);
 }
