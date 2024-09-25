@@ -1,0 +1,15 @@
+body{
+    margin-left: 40%;
+    margin-top: 50px;
+}
+#text{
+    height: 40px;
+    width: 350px;
+    margin-left: -100px;
+}
+#add{
+    height: 45px;
+    width: 80px;
+    background-color: rgb(45, 193, 45);
+    margin-left: -5;
+}
