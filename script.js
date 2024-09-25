@@ -3,9 +3,11 @@ function add(){
     div.style.backgroundColor= "red";
     div.setAttribute("height","50px");
     div.setAttribute("width","50px");
+    div.setAttribute("class","bigDiv");
    
     let button = document.createElement("button");
     button.setAttribute("class","button");
+
     button.addEventListener('click', function(){
         div.style.backgroundColor= "green";
     })
@@ -14,6 +16,7 @@ function add(){
     let text = document.createElement("div");
     text.innerHTML = document.getElementById("text").value;
     text.style.backgroundColor = "white";
+    text.setAttribute("class","textDiv");
  
     div.appendChild(text);
     div.appendChild(button);    
