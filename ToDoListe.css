@@ -12,3 +12,21 @@ body{
     width: 80px;
     background-color: rgb(45, 193, 45);
 }
+.bigDiv{
+    margin-top: 10px;
+    margin-left: -70px;
+    width: 75px;
+    height: 25px;
+    display: flex;
+    flex-flow: row-reverse;
+    background-color: red;
+    text-align: center;
+}
+.text{
+    height: 25px;
+    width: 50px;
+    margin-right: -20px;
+}
+.button{
+    height: 25px;
+}
