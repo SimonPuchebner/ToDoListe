@@ -18,6 +18,7 @@ function createItem(content, color) {
     div.style.backgroundColor = color || "red";
     div.setAttribute("height", "50px");
     div.setAttribute("width", "50px");
+    div.setAttribute("class", "bigDiv");
 
     let button = document.createElement("button");
     button.setAttribute("class", "button");

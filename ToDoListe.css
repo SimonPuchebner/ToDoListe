@@ -19,7 +19,6 @@ body{
     height: 25px;
     display: flex;
     flex-flow: row-reverse;
-    background-color: red;
     text-align: center;
 }
 .text{
